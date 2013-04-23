@@ -1,0 +1,312 @@
+@font-face {
+	font-family: 'promethean';
+	src: url('/moodle/theme/vrsim/pix/fonts/promethean.ttf') format('truetype'); 
+/*	src: url('[[pix:theme|fonts/promethean.ttf]]') format('truetype'); */
+	src: url('/moodle/theme/vrsim/pix/fonts/promethean.eot') format('embedded-opentype'); /* IE */  
+  src: local('promethean'), url('/moodle/theme/vrsim/pix/fonts/promethean.ttf') format('truetype'), url('/moodle/theme/vrsim/pix/fonts/promethean.svg#font') format('svg'); /* non-IE */  
+}
+
+a {
+    text-decoration: none;
+}
+ 
+.addcoursebutton .singlebutton {
+    text-align: center;
+}
+ 
+h1.headermain {
+    font-family: promethean;
+    font-size: 46px;
+    color: #fff;
+    text-align: center;
+    text-align: -webkit-center;
+    width: 100%;
+/*    margin-left: 40px;
+    padding-top: 10px;
+    padding-left: 200px;*/
+}
+
+#headermain {
+
+}
+ 
+h2.main {
+    border-bottom: 3px solid #013D6A;
+    color: #013D6A;
+    text-align: center;
+}
+ 
+h2.headingblock {
+    font-size: 18pt;
+    margin-top: 0;
+    background-color: #013D6A;
+    color: #FFF;
+    text-align: center;
+}
+ 
+#page-header {
+    background-color: transparent;
+    background-image:url([[pix:theme|header/header_logo]]);
+    height: 110px;
+    text-align: center;
+}
+ 
+#page-header .headermenu {
+    color: #FFF;
+}
+
+/*
+#page-header .headermenu a {
+    color: #FDFF2A;
+}
+*/
+ 
+.navbar {
+    padding-left: 1em;
+    padding-top: -5px;
+    margin-top: -5px;
+}
+ 
+.breadcrumb li {
+    color: black;
+    font-family: promethean;
+}
+ 
+.breadcrumb li a {
+    color: black;
+}
+ 
+.block {
+    background-color: transparent;
+    font-family: promethean;
+    border: 0;
+}
+
+.minicalendar {
+    font-size: 10px;
+}
+ 
+.block .header .title {
+    color: #FFF;
+    background-image:url([[pix:theme|blocks/blockhr]]);
+    margin: 0;
+    height: 39px;
+    border: 0;
+}
+
+html body #page .block_html.block ul li {
+  background-image:url([[pix:theme|blocks/blocksub]]);
+  color: navy;
+  list-style:none;
+  margin-left: 20px;
+  margin-bottom: 3px;
+  padding-top: 7px;
+  padding-left: 5px;
+  height: 22px;
+  width: 145px;
+  text-indent: !important;
+}
+
+ 
+.block .header .title .block_action input {
+    background-color: #FFF;
+}
+ 
+.block .content {
+    border: 0px solid #000;
+    padding: 5px;
+    background-color: #FFF;
+}
+ 
+.block .content .block_tree p {
+    font-size: 80%;
+}
+ 
+.block_settings_navigation_tree .content .footer {
+    text-align: center;
+}
+ 
+.block_settings_navigation_tree .content .footer .adminsearchform {
+    margin-left: 5%;
+    width: 90%;
+    font-size: 9pt;
+}
+ 
+.block_settings_navigation_tree .content .footer .adminsearchform #adminsearchquery {
+    width: 95%;
+}
+ 
+.block_calendar_month .content .calendar-controls a {
+    color: #013D6A;
+    font-weight: bold;
+}
+ 
+.block_calendar_month .content .minicalendar td {
+    border-color: #FFF;
+}
+ 
+.block_calendar_month .content .minicalendar .day {
+    color: #FFF;
+    background-color: #013D6A;
+}
+ 
+.block_calendar_month .content .minicalendar .day a {
+    color: #FFF000;
+}
+ 
+.block_calendar_month .content .minicalendar .weekdays th {
+    border-width: 0;
+    font-weight: bold;
+    color: #013D6A;
+}
+ 
+.block_calendar_month .content .minicalendar .weekdays abbr {
+    border-width: 0;
+    text-decoration: none;
+}
+ 
+.sideblock {background-color: #013D6A;}
+.sideblock .header .title {color: #FFF;}
+.sideblock .header .title .block_action input {background-color: #FFF;}
+.sideblock .content {border: 0px solid #000;padding: 5px;background-color: #FFF;}
+.sideblock .content .block_tree p {font-size: 80%;}
+ 
+.block_settings_navigation_tree .content .footer {text-align: center;}
+.block_settings_navigation_tree .content .footer .adminsearchform {margin-left: 5%;width: 90%;font-size: 9pt;}
+.block_settings_navigation_tree .content .footer .adminsearchform #adminsearchquery {width: 95%;}
+ 
+.block_calendar_month .content .calendar-controls a {color: #013D6A;font-weight: bold;}
+.block_calendar_month .content .minicalendar td {border-color: #FFF;}
+.block_calendar_month .content .minicalendar .day {color: #FFF;background-color: #013D6A;}
+.block_calendar_month .content .minicalendar .day a {color: #FFF000;}
+.block_calendar_month .content .minicalendar .weekdays th {border-width: 0;font-weight: bold;color: #013D6A;}
+.block_calendar_month .content .minicalendar .weekdays abbr {border-width: 0;text-decoration: none;}
+ 
+html {background-image:url([[pix:theme|background]]); font-family: promethean;}
+ 
+h2.headingblock,
+#page-header,
+.content
+{
+/*  background-image:url([[pix:theme|gradient]]); */
+  background-color: transparent;
+}
+
+#page-header,
+.sideblock,
+.block_calendar_month .minicalendar .day {
+  background-color: transparent;
+}
+
+#page-content #region-main {
+margin-right: 20px;
+margin-left: 420px;
+overflow: hidden;
+}
+
+#page-content #region-pre {
+  float: left;
+  left: 200px;
+  overflow: hidden;
+  position: relative;
+  width: 220px;
+  margin-left: -50%;
+}
+
+#page-content #region-post {
+float: left;
+left: -20px;
+overflow: hidden;
+position: relative;
+width: 220px;
+}
+
+.block .header h2 {
+  padding-left: 7px;
+  padding-top: 10px;
+  color: black;
+}
+
+#region-main .block_course_overview .header .title {
+  background-image: none;
+  margin-left: 10px;
+}
+
+#region-main {
+  border-style: solid;
+  border-width:2px;
+  border-color: transparent red red red;
+  position: relative;  
+/*  text-align: center;  
+  line-height: 40px;  */
+  background-color: #fff;
+  -webkit-box-shadow: 2px 2px 4px #888;  
+  -moz-box-shadow: 2px 2px 4px #888;  
+  box-shadow: 2px 2px 4px #888; 
+}
+
+/*
+#region-main:before  
+{  
+    content: ' ';  
+    position: absolute;  
+    width: 0;  
+    height: 0;  
+    left: 0px;  
+    border: 25px solid;  
+    border-color: blue transparent transparent blue;
+}
+
+#region-main:after  
+{  
+    content: ' ';  
+    position: absolute;  
+    width: 0;  
+    height: 0;  
+    left: px;  
+    top: 0px;  
+    border: 15px solid;  
+    border-color: green transparent transparent green;  
+}
+*/
+
+#page-site-index .headingblock {
+  color: #1B0700;
+  font-family: promethean;
+}
+
+.logout_button {
+  font-family: promethean;
+  font-size: 12px;
+  text-decoration: none;
+  background-color: #EEEEEE;
+  color: black;
+  padding: 2px 6px 2px 6px;
+  border-top: 1px solid #CCCCCC;
+  border-right: 1px solid #333333;
+  border-bottom: 1px solid #333333;
+  border-left: 1px solid #CCCCCC;
+}
+
+.logout_name {
+  font-family: promethean;
+  font-size: 12px;
+  text-decoration: none;
+  background-color: white;
+  color: black;
+  padding: 2px 6px 2px 6px;
+  border-top: 2px solid red;
+  border-right: 2px solid red;
+  border-bottom: 2px solid red;
+  border-left: 2px solid red;
+}
+
+#page-footer .logininfo, #page-footer .sitelink, #page-footer .helplink {
+margin: 10px;
+}
+
+.block_settings .block_tree .tree_item {
+padding-left: 18px;
+margin: 6px 0px;
+text-align: left;
+}
