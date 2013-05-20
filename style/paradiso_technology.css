@@ -1,9 +1,9 @@
 @font-face {
 	font-family: 'promethean';
-	src: url('/moodle/theme/vrsim/pix/fonts/promethean.ttf') format('truetype'); 
+	/*src: url('/moodle/theme/vrsim/pix/fonts/promethean.ttf') format('truetype'); */
 /*	src: url('[[pix:theme|fonts/promethean.ttf]]') format('truetype'); */
-	src: url('/moodle/theme/vrsim/pix/fonts/promethean.eot') format('embedded-opentype'); /* IE */  
-  src: local('promethean'), url('/moodle/theme/vrsim/pix/fonts/promethean.ttf') format('truetype'), url('/moodle/theme/vrsim/pix/fonts/promethean.svg#font') format('svg'); /* non-IE */  
+	/*src: url('/moodle/theme/vrsim/pix/fonts/promethean.eot') format('embedded-opentype');*/ /* IE */  
+  /*src: local('promethean'), url('/moodle/theme/vrsim/pix/fonts/promethean.ttf') format('truetype'), url('/moodle/theme/vrsim/pix/fonts/promethean.svg#font') format('svg');*/ /* non-IE */  
 }
 
 a {
